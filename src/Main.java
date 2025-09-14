@@ -59,6 +59,9 @@ public class Main {
                 case GET_NAME:
                     getContactName(in,cBook);
                     break;
+                case EQUAL_PHONES:
+                    equalPhoneNumbers(cBook);
+                    break;
                 default:
                     System.out.println(COMMAND_ERROR);
             }
